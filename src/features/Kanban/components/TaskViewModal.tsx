@@ -44,7 +44,7 @@ export default function TaskViewModal({ isOpen, handleCloseDialog }: IProps) {
             <Grid item xs={1} />
             <Grid item xs={11} className={classes.member}>
               <Typography variant="body2" color="textSecondary">
-                Tony Nguyen
+                KhoaNNV
               </Typography>
             </Grid>
           </Grid>
