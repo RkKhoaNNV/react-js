@@ -30,12 +30,12 @@ function createDataTodo(title: string, author: string, severity: string, status:
 }
 
 const todos = [
-  createDataTodo('Learn React', 'Tony Nguyen', 'low', 'completed'),
-  createDataTodo('Learn React', 'Tony Nguyen', 'medium', 'new'),
-  createDataTodo('Learn React', 'Tony Nguyen', 'high', 'inprocess'),
-  createDataTodo('Learn React', 'Tony Nguyen', 'high', 'completed'),
-  createDataTodo('Learn React', 'Tony Nguyen', 'medium', 'new'),
-  createDataTodo('Learn React', 'Tony Nguyen', 'medium', 'inprocess'),
+  createDataTodo('Learn React', 'KhoaNNV', 'low', 'completed'),
+  createDataTodo('Learn React', 'KhoaNNV', 'medium', 'new'),
+  createDataTodo('Learn React', 'KhoaNNV', 'high', 'inprocess'),
+  createDataTodo('Learn React', 'KhoaNNV', 'high', 'completed'),
+  createDataTodo('Learn React', 'KhoaNNV', 'medium', 'new'),
+  createDataTodo('Learn React', 'KhoaNNV', 'medium', 'inprocess'),
 ];
 
 function createDataUser(email: string, role: string) {
@@ -43,7 +43,7 @@ function createDataUser(email: string, role: string) {
 }
 
 const users = [
-  createDataUser('nhattruong1811@gmail.com', 'Admin'),
+  createDataUser('KhoaNNV@gmail.com', 'Admin'),
   createDataUser('david@gmail.com', 'Operator'),
   createDataUser('khanh@gmail.com', 'Collaborator'),
   createDataUser('minh@gmail.com', 'Collaborator'),

@@ -22,27 +22,27 @@ const news = [
   {
     id: 1,
     text: 'Learn react',
-    author: 'Tony Nguyen',
+    author: 'KhoaNNV',
   },
   {
     id: 2,
     text: 'Learn javacript',
-    author: 'Tony Nguyen',
+    author: 'KhoaNNV',
   },
   {
     id: 3,
     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    author: 'Tony Nguyen',
+    author: 'KhoaNNV',
   },
   {
     id: 4,
     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    author: 'Tony Nguyen',
+    author: 'KhoaNNV',
   },
   {
     id: 5,
     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    author: 'Tony Nguyen',
+    author: 'KhoaNNV',
   },
 ];
 
@@ -126,7 +126,7 @@ function Kanban() {
                         </Button>
                         <Grid container justify="flex-end">
                           <Typography variant="body2" color="textSecondary" component="p">
-                            Tony Nguyen
+                            KhoaNNV
                           </Typography>
                         </Grid>
                       </CardActions>
@@ -156,7 +156,7 @@ function Kanban() {
                         </Button>
                         <Grid container justify="flex-end">
                           <Typography variant="body2" color="textSecondary" component="p">
-                            Tony Nguyen
+                            KhoaNNV
                           </Typography>
                         </Grid>
                       </CardActions>
@@ -177,7 +177,7 @@ function Kanban() {
                         </Button>
                         <Grid container justify="flex-end">
                           <Typography variant="body2" color="textSecondary" component="p">
-                            Tony Nguyen
+                            KhoaNNV
                           </Typography>
                         </Grid>
                       </CardActions>
