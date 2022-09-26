@@ -8,10 +8,6 @@ import { PATH_NAME } from 'configs';
 // selectors
 import { roleSelector } from 'selectors/auth.selector';
 
-type IProps = {
-  requireRoles: string[] | [];
-};
-
 const RoleRoute: FC<any> = ({ children, requireRoles = [] }: any) => {
   const history = useHistory();
   const role = useSelector(roleSelector);
