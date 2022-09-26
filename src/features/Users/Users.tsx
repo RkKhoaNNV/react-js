@@ -25,7 +25,6 @@ export default function UserList() {
   const classes = useStyles();
   const history = useHistory();
   const { data } = useGet('https://62da45829eedb6996369e9ff.mockapi.io/khoannv/api/user-profile', {});
-  console.log('data', data);
 
   return (
     <>
