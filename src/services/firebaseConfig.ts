@@ -25,7 +25,6 @@ export async function getFCMToken() {
     });
     return token;
   } catch (e) {
-    console.log('getFCMToken error', e);
     return undefined;
   }
 }
