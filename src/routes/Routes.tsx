@@ -18,15 +18,15 @@ import GuestGuard from 'guards/GuestGuard';
 import RoleRoute from './RoleRoute';
 
 // modules
-const Error404View = lazy(() => import('features/Error404View'));
-const DenyView = lazy(() => import('features/DenyView'));
-const ProductAdd = lazy(() => import('features/Product/ProductAdd'));
-const ProductList = lazy(() => import('features/Product/ProductList'));
-const Users = lazy(() => import('features/Users'));
-const Dashboard = lazy(() => import('features/Dashboard'));
-const Playbackground = lazy(() => import('features/Playbackground'));
-const Login = lazy(() => import('features/Login'));
-const Kanban = lazy(() => import('features/Kanban'));
+const Error404View = lazy(() => import('page/Error404View'));
+const DenyView = lazy(() => import('page/DenyView'));
+const ProductAdd = lazy(() => import('page/Product/ProductAdd'));
+const ProductList = lazy(() => import('page/Product/ProductList'));
+const Users = lazy(() => import('page/Users'));
+const Dashboard = lazy(() => import('page/Dashboard'));
+const Playbackground = lazy(() => import('page/Playbackground'));
+const Login = lazy(() => import('page/Login'));
+const Kanban = lazy(() => import('page/Kanban'));
 
 const routesConfig: IRoutes[] = [
   {
