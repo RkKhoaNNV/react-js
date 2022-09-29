@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
@@ -23,6 +23,7 @@ import { USER_ROLE } from 'configs';
 
 // actions
 import { login } from 'actions/auth.action';
+import { getFCMToken } from 'services/firebaseConfig';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -55,6 +56,10 @@ export default function SignIn() {
     e.preventDefault();
     dispatch(login(name, role, history));
   };
+
+  useEffect(() => {
+    getFCMToken();
+  }, []);
 
   return (
     <Container component="main" maxWidth="xs">
