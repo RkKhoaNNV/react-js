@@ -24,6 +24,7 @@
     "axios": "^0.21.0",
     "clsx": "^1.1.1",
     "env-cmd": "^10.1.0",
+    "firebase": "^9.10.0",
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
     "lodash": "^4.17.20",
